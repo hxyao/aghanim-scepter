@@ -6,8 +6,6 @@ define(function(require) {
     var etpl = require('etpl');
     require('etpl/tpl!./navbar.tpl');
 
-    var navbarClass = 'navbar-container';
-
     function Navbar() {
 
     }

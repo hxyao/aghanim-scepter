@@ -15,14 +15,14 @@
 		<!-- for: ${sliderContent} as ${content}, ${index} -->
 		<!-- if: ${index} == 0 -->
 		<div class="item active">
-			<a class="no-underline" href="${content.link}">
+			<a class="no-underline" href="${content.link}" target="_blank">
 				<img src="${content.img}" alt="${content.title}" class="img-responsive">
 			</a>
 			<div class="carousel-caption"></div>
 		</div>
 		<!-- else -->
 		<div class="item">
-			<a class="no-underline" href="${content.link}">
+			<a class="no-underline" href="${content.link}" target="_blank">
 				<img src="${content.img}" alt="${content.title}" class="img-responsive">
 			</a>
 			<div class="carousel-caption"></div>

@@ -1,43 +1,30 @@
 @import "./base.less";
 
-.navbar-container {
-	background: #000;
-	font-size: 18px;
+.navbar {
 	height: @navbar-height;
-	max-height: @navbar-height;
-	min-width: @page-width;
-	position: relative;
-	width: 100%;
-	z-index: 999;
+	border: none;
+	background: #111;
 
-	.navbar {
-		margin: 0 auto;
-		max-width: @page-width;
-		width: @page-width;
+	.navbar-header {
 
-		.navbar-header {
-			height: @navbar-height;
+		.navbar-brand {
+			padding: 8px;
+		}
 
-			.navbar-brand {
-				padding: 8px;
-			}
-
-			.navbar-desc {
-				float: left;
-				height: 25px;
-				margin-left: 8px;
-				margin-top: 11px;
-				width: 250px;
-			}
-			
-			.navbar-separator {
-				border-left: 2px solid #666;
-				content: "";
-				float: left;
-				height: 40px;
-				margin-top: 6px;
-			}
+		.navbar-desc {
+			float: left;
+			height: 25px;
+			margin-left: 5px;
+			margin-top: 11px;
+			width: 250px;
+		}
+		
+		.navbar-separator {
+			border-left: 1px solid #303030;
+			content: "";
+			float: left;
+			height: 40px;
+			margin-top: 6px;
 		}
 	}
-
 }
